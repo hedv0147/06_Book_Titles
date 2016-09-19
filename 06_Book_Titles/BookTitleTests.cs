@@ -6,7 +6,7 @@ namespace _06_Book_Titles
     [TestClass]
     public class BookTitleTests
     {
-        private Book book;
+        public Book book;
 
         [TestInitialize]
         public void SetupForTest()
